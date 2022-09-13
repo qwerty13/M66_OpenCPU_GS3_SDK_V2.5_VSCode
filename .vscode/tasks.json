@@ -1,0 +1,27 @@
+// Build Task For VSCode By Morteza Rastegar (qwerty13), 26/05/1401
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "windows": {
+                "command": "make clean && make new && echo %cd%\\build\\gcc| clip && %SystemRoot%\\explorer.exe /select, \"%cd%\\tools\\QFlash_V4.0\\QFlash_V4.0.exe\"",
+                "options": {
+                    "shell": {
+                        "executable": "cmd.exe",
+                        "args": [
+                            "/d", "/c"
+                        ]
+                    }
+                }
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
