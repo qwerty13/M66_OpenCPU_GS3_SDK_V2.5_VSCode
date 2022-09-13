@@ -1,0 +1,275 @@
+2020-01-07 13:39:46,359 INFO     [FlashTop]    init
+2020-01-08 18:46:27,457 INFO     [FlashTop]    init
+2020-01-08 18:46:27,460 [Process-14448] INFO     [FlashTop]    do_main: cmd loadpara
+2020-01-08 18:46:27,460 [Process-14448] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1
+2020-01-08 18:46:27,646 [Process-14448] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\cfg.digest, digest:b'\xdd\x89\xdb\x5e\x08\x9e\xb6\x97\x60\xc7\x68\xed\xf1\x65\x43\xf1\xe1\x48\x89\xc5\x18\x5d\x08\x03\x6f\x00\xb2\x6c\xa1\x43\x4f\x3c' 
+2020-01-08 18:46:27,646 [Process-14448] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\config.ini) 
+2020-01-08 18:46:27,649 [Process-14448] INFO     [FlashTop]    do_main: cmd burnag, Thread0[6112]
+2020-01-08 18:46:27,649 [Process-14448] INFO     [Thread0]    ProcessStart[6112]
+2020-01-08 18:46:29,667 [Process-14448] INFO     [Thread0]    ResetBoard finish
+2020-01-08 18:46:29,783 [Process-14448] INFO     [Thread0]    args.ser.port :COM177
+2020-01-08 18:46:29,787 [Process-14448] INFO     [Image]    SetBaud 460800
+2020-01-08 18:46:29,788 [Process-14448] INFO     [Thread0]    TryDownload D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\agentboot.bin start
+2020-01-08 18:46:29,788 [Process-14448] INFO     [Thread0]    image size=26944, hdsize=272
+2020-01-08 18:46:29,788 [Process-14448] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:29,801 [Process-14448] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:29,913 [Process-14448] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:29,929 [Process-14448] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:32,937 [Process-14448] INFO     [Thread0]    TryDownload agentboot success
+2020-01-08 18:46:33,054 [Process-14448] INFO     [Thread0]    agbaud: 460800
+2020-01-08 18:46:33,187 [Process-14448] INFO     [Thread0]    Burn OK!
+2020-01-08 18:46:33,187 [Process-14448] INFO     [Thread0]    ProcessEnd[6112]
+2020-01-08 18:46:33,837 INFO     [FlashTop]    init
+2020-01-08 18:46:33,840 [Process-26508] INFO     [FlashTop]    do_main: cmd loadpara
+2020-01-08 18:46:33,841 [Process-26508] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1
+2020-01-08 18:46:33,842 [Process-26508] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\cfg.digest, digest:b'\xdd\x89\xdb\x5e\x08\x9e\xb6\x97\x60\xc7\x68\xed\xf1\x65\x43\xf1\xe1\x48\x89\xc5\x18\x5d\x08\x03\x6f\x00\xb2\x6c\xa1\x43\x4f\x3c' 
+2020-01-08 18:46:33,842 [Process-26508] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\config.ini) 
+2020-01-08 18:46:33,844 [Process-26508] INFO     [FlashTop]    do_main: cmd flasherase, Thread0[30308]
+2020-01-08 18:46:33,844 [Process-26508] INFO     [Thread0]    ProcessStart[30308]
+2020-01-08 18:46:33,844 [Process-26508] INFO     [Thread0]    ResetBoard skip for straight download
+2020-01-08 18:46:33,844 [Process-26508] INFO     [Thread0]    args.ser.port :COM177
+2020-01-08 18:46:33,850 [Process-26508] INFO     [Thread0]    TryDownload agentboot skip
+2020-01-08 18:46:33,966 [Process-26508] INFO     [Thread0]    agbaud: 460800
+2020-01-08 18:46:33,985 [Process-26508] INFO     [Thread0]    LPC Preamble Send
+2020-01-08 18:46:33,999 [Process-26508] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-01-08 18:46:34,000 [Process-26508] INFO     [Thread0]    Erase start, mem addr:0x0, mem len:0x400000 
+2020-01-08 18:46:40,832 [Process-26508] INFO     [Thread0]    Erase success, mem addr:0x0, mem len:0x400000 
+2020-01-08 18:46:40,832 [Process-26508] INFO     [FlashTop]    flasherase finish, Thread0[30308]
+2020-01-08 18:46:40,832 [Process-26508] INFO     [Thread0]    ProcessEnd[30308]
+2020-01-08 18:46:41,444 INFO     [FlashTop]    init
+2020-01-08 18:46:41,447 [Process-20156] INFO     [FlashTop]    do_main: cmd loadpara
+2020-01-08 18:46:41,447 [Process-20156] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1
+2020-01-08 18:46:41,449 [Process-20156] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\cfg.digest, digest:b'\xdd\x89\xdb\x5e\x08\x9e\xb6\x97\x60\xc7\x68\xed\xf1\x65\x43\xf1\xe1\x48\x89\xc5\x18\x5d\x08\x03\x6f\x00\xb2\x6c\xa1\x43\x4f\x3c' 
+2020-01-08 18:46:41,449 [Process-20156] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\config.ini) 
+2020-01-08 18:46:41,451 [Process-20156] INFO     [FlashTop]    do_main: cmd burn, Thread0[25584]
+2020-01-08 18:46:41,451 [Process-20156] INFO     [Thread0]    ProcessStart[25584]
+2020-01-08 18:46:41,451 [Process-20156] INFO     [Thread0]    Download totalsize = 1821188
+2020-01-08 18:46:41,451 [Process-20156] INFO     [Thread0]    ResetBoard skip for straight download
+2020-01-08 18:46:41,452 [Process-20156] INFO     [Thread0]    args.ser.port :COM177
+2020-01-08 18:46:41,468 [Process-20156] INFO     [Thread0]    TryDownload agentboot skip
+2020-01-08 18:46:41,585 [Process-20156] INFO     [Thread0]    agbaud: 460800
+2020-01-08 18:46:41,602 [Process-20156] INFO     [Thread0]    LPC Preamble Send
+2020-01-08 18:46:41,616 [Process-20156] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-01-08 18:46:41,669 [Process-20156] INFO     [Image]    SetBaud 460800
+2020-01-08 18:46:41,670 [Process-20156] INFO     [Thread0]    TryDownload:headpath=, bodypath=D:\4_Firmware\BC260YCNAAR01A01_JMS\Bootloader_BC260YCNAAR01A01_JMS.bin
+2020-01-08 18:46:41,670 [Process-20156] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-01-08 18:46:41,680 [Process-20156] INFO     [Thread0]    LPCBurnOneTrig success
+2020-01-08 18:46:41,681 [Process-20156] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-01-08 18:46:42,192 [Process-20156] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-01-08 18:46:42,193 [Process-20156] INFO     [Thread0]    image size=47328, hdsize=272
+2020-01-08 18:46:42,193 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:42,193 [Process-20156] INFO     [Thread0]    imginfo.size=47328, RemainLen=47328, Offset=0
+2020-01-08 18:46:42,194 [Process-20156] INFO     [Thread0]    {Bootloader_BC260YCNAAR01A01_JMS.bin-percent files transferred   0%}
+2020-01-08 18:46:42,194 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:42,194 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:42,208 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:42,304 [Process-20156] INFO     [Thread0]    imginfo.size=47328, RemainLen=47056, Offset=272
+2020-01-08 18:46:42,305 [Process-20156] INFO     [Thread0]    {Bootloader_BC260YCNAAR01A01_JMS.bin-percent files transferred   0%}
+2020-01-08 18:46:42,305 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:42,305 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:42,848 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:44,119 [Process-20156] INFO     [Thread0]    imginfo.size=47328, RemainLen=0, Offset=272
+2020-01-08 18:46:44,119 [Process-20156] INFO     [Thread0]    {Bootloader_BC260YCNAAR01A01_JMS.bin-percent files transferred   100%}
+2020-01-08 18:46:44,119 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:44,119 [Process-20156] INFO     [Thread0]    TryDownload finish
+2020-01-08 18:46:44,128 [Process-20156] INFO     [Thread0]    TryDownload success:headpath=, bodypath=D:\4_Firmware\BC260YCNAAR01A01_JMS\Bootloader_BC260YCNAAR01A01_JMS.bin
+2020-01-08 18:46:44,424 [Process-20156] INFO     [Thread0]    TryDownload:headpath=, bodypath=D:\4_Firmware\BC260YCNAAR01A01_JMS\BC260YCNAAR01A01_JMS.bin
+2020-01-08 18:46:44,424 [Process-20156] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-01-08 18:46:44,433 [Process-20156] INFO     [Thread0]    LPCBurnOneTrig success
+2020-01-08 18:46:44,433 [Process-20156] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-01-08 18:46:44,944 [Process-20156] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    image size=1773860, hdsize=272
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1773860, Offset=0
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   0%}
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:44,946 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:44,960 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:45,056 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1773588, Offset=272
+2020-01-08 18:46:45,057 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   0%}
+2020-01-08 18:46:45,057 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:45,057 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:45,153 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:46,822 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1708052, Offset=65808
+2020-01-08 18:46:46,822 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   3%}
+2020-01-08 18:46:46,822 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:46,823 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:46,848 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:48,519 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1642516, Offset=131344
+2020-01-08 18:46:48,519 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   7%}
+2020-01-08 18:46:48,519 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:48,519 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:48,544 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:50,215 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1576980, Offset=196880
+2020-01-08 18:46:50,215 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   11%}
+2020-01-08 18:46:50,215 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:50,215 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:50,240 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:51,910 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1511444, Offset=262416
+2020-01-08 18:46:51,910 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   14%}
+2020-01-08 18:46:51,910 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:51,910 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:51,936 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:53,606 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1445908, Offset=327952
+2020-01-08 18:46:53,606 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   18%}
+2020-01-08 18:46:53,607 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:53,607 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:53,632 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:55,302 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1380372, Offset=393488
+2020-01-08 18:46:55,302 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   22%}
+2020-01-08 18:46:55,302 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:55,302 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:55,328 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:56,998 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1314836, Offset=459024
+2020-01-08 18:46:56,998 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   25%}
+2020-01-08 18:46:56,999 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:56,999 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:57,024 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:46:58,695 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1249300, Offset=524560
+2020-01-08 18:46:58,695 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   29%}
+2020-01-08 18:46:58,695 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:46:58,695 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:46:58,720 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:00,390 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1183764, Offset=590096
+2020-01-08 18:47:00,391 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   33%}
+2020-01-08 18:47:00,391 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:00,391 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:00,416 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:02,087 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1118228, Offset=655632
+2020-01-08 18:47:02,087 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   36%}
+2020-01-08 18:47:02,087 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:02,087 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:02,112 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:03,782 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=1052692, Offset=721168
+2020-01-08 18:47:03,782 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   40%}
+2020-01-08 18:47:03,782 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:03,782 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:03,808 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:05,478 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=987156, Offset=786704
+2020-01-08 18:47:05,479 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   44%}
+2020-01-08 18:47:05,479 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:05,479 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:05,504 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:07,175 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=921620, Offset=852240
+2020-01-08 18:47:07,175 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   48%}
+2020-01-08 18:47:07,175 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:07,175 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:07,200 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:08,870 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=856084, Offset=917776
+2020-01-08 18:47:08,870 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   51%}
+2020-01-08 18:47:08,870 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:08,870 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:08,896 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:10,567 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=790548, Offset=983312
+2020-01-08 18:47:10,567 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   55%}
+2020-01-08 18:47:10,567 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:10,567 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:10,592 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:12,262 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=725012, Offset=1048848
+2020-01-08 18:47:12,262 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   59%}
+2020-01-08 18:47:12,263 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:12,263 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:12,288 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:13,959 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=659476, Offset=1114384
+2020-01-08 18:47:13,959 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   62%}
+2020-01-08 18:47:13,959 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:13,959 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:13,984 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:15,653 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=593940, Offset=1179920
+2020-01-08 18:47:15,653 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   66%}
+2020-01-08 18:47:15,653 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:15,654 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:15,679 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:17,351 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=528404, Offset=1245456
+2020-01-08 18:47:17,351 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   70%}
+2020-01-08 18:47:17,351 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:17,351 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:17,375 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:19,045 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=462868, Offset=1310992
+2020-01-08 18:47:19,045 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   73%}
+2020-01-08 18:47:19,045 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:19,045 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:19,071 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:20,743 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=397332, Offset=1376528
+2020-01-08 18:47:20,743 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   77%}
+2020-01-08 18:47:20,743 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:20,743 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:20,767 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:22,437 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=331796, Offset=1442064
+2020-01-08 18:47:22,437 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   81%}
+2020-01-08 18:47:22,438 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:22,438 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:22,464 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:24,134 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=266260, Offset=1507600
+2020-01-08 18:47:24,134 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   84%}
+2020-01-08 18:47:24,134 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:24,134 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:24,159 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:25,831 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=200724, Offset=1573136
+2020-01-08 18:47:25,831 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   88%}
+2020-01-08 18:47:25,831 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:25,831 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:25,855 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:27,526 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=135188, Offset=1638672
+2020-01-08 18:47:27,526 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   92%}
+2020-01-08 18:47:27,526 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:27,526 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:27,551 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:29,222 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=69652, Offset=1704208
+2020-01-08 18:47:29,222 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   96%}
+2020-01-08 18:47:29,222 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:29,222 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:29,247 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:30,918 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=4116, Offset=1769744
+2020-01-08 18:47:30,918 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   99%}
+2020-01-08 18:47:30,918 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:30,918 [Process-20156] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:31,023 [Process-20156] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:31,350 [Process-20156] INFO     [Thread0]    imginfo.size=1773860, RemainLen=0, Offset=1769744
+2020-01-08 18:47:31,350 [Process-20156] INFO     [Thread0]    {BC260YCNAAR01A01_JMS.bin-percent files transferred   100%}
+2020-01-08 18:47:31,351 [Process-20156] INFO     [Thread0]    
+2020-01-08 18:47:31,351 [Process-20156] INFO     [Thread0]    TryDownload finish
+2020-01-08 18:47:31,359 [Process-20156] INFO     [Thread0]    TryDownload success:headpath=, bodypath=D:\4_Firmware\BC260YCNAAR01A01_JMS\BC260YCNAAR01A01_JMS.bin
+2020-01-08 18:47:31,476 [Process-20156] INFO     [Thread0]    Burn OK!
+2020-01-08 18:47:31,476 [Process-20156] INFO     [Thread0]    ProcessEnd[25584]
+2020-01-08 18:47:32,154 INFO     [FlashTop]    init
+2020-01-08 18:47:32,157 [Process-30252] INFO     [FlashTop]    do_main: cmd loadpara
+2020-01-08 18:47:32,157 [Process-30252] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1
+2020-01-08 18:47:32,159 [Process-30252] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\cfg.digest, digest:b'\xdd\x89\xdb\x5e\x08\x9e\xb6\x97\x60\xc7\x68\xed\xf1\x65\x43\xf1\xe1\x48\x89\xc5\x18\x5d\x08\x03\x6f\x00\xb2\x6c\xa1\x43\x4f\x3c' 
+2020-01-08 18:47:32,159 [Process-30252] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.13_FW_Download_And_Format_V5.0.49\FW_Download_And_Format_V5.0.50\EFlashTool\1\config.ini) 
+2020-01-08 18:47:32,160 [Process-30252] INFO     [FlashTop]    do_main: cmd burnone, Thread0[30184]
+2020-01-08 18:47:32,161 [Process-30252] INFO     [Thread0]    ProcessStart[30184]
+2020-01-08 18:47:32,162 [Process-30252] INFO     [Thread0]    Download totalsize = 1887268
+2020-01-08 18:47:32,162 [Process-30252] INFO     [Thread0]    ResetBoard skip for straight download
+2020-01-08 18:47:32,162 [Process-30252] INFO     [Thread0]    args.ser.port :COM177
+2020-01-08 18:47:32,179 [Process-30252] INFO     [Thread0]    TryDownload agentboot skip
+2020-01-08 18:47:32,295 [Process-30252] INFO     [Thread0]    agbaud: 460800
+2020-01-08 18:47:32,312 [Process-30252] INFO     [Thread0]    LPC Preamble Send
+2020-01-08 18:47:32,327 [Process-30252] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-01-08 18:47:32,328 [Process-30252] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile0)
+2020-01-08 18:47:32,328 [Process-30252] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile0), burnaddr(0x3a4000), imgid(0x464c5849)
+2020-01-08 18:47:32,329 [Process-30252] INFO     [Thread0]    DownloadBurnOne file D:\4_Firmware\BC260YCNAAR01A01_JMS\MergeRfTable.bin 
+2020-01-08 18:47:32,431 [Process-30252] INFO     [Thread0]    TryDownload D:\4_Firmware\BC260YCNAAR01A01_JMS\MergeRfTable.bin start
+2020-01-08 18:47:32,431 [Process-30252] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-01-08 18:47:32,439 [Process-30252] INFO     [Thread0]    LPCBurnOneTrig success
+2020-01-08 18:47:32,439 [Process-30252] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-01-08 18:47:32,951 [Process-30252] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    image size=33040, hdsize=272
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    imginfo.size=33040, RemainLen=33040, Offset=0
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   0%}
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    
+2020-01-08 18:47:32,953 [Process-30252] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:32,967 [Process-30252] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:33,063 [Process-30252] INFO     [Thread0]    imginfo.size=33040, RemainLen=32768, Offset=272
+2020-01-08 18:47:33,064 [Process-30252] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   0%}
+2020-01-08 18:47:33,064 [Process-30252] INFO     [Thread0]    
+2020-01-08 18:47:33,064 [Process-30252] INFO     [Thread0]    Preamble Send
+2020-01-08 18:47:33,383 [Process-30252] INFO     [Thread0]    Preamble Received Rsp
+2020-01-08 18:47:34,333 [Process-30252] INFO     [Thread0]    imginfo.size=33040, RemainLen=0, Offset=272
+2020-01-08 18:47:34,334 [Process-30252] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   100%}
+2020-01-08 18:47:34,334 [Process-30252] INFO     [Thread0]    
+2020-01-08 18:47:34,343 [Process-30252] INFO     [Thread0]    TryDownload success
+2020-01-08 18:47:34,460 [Process-30252] INFO     [Thread0]    Burn OK!
+2020-01-08 18:47:34,460 [Process-30252] INFO     [Thread0]    ProcessEnd[30184]
+2022-07-21 11:13:58,862 INFO     [FlashTop]    init

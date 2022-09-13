@@ -1,0 +1,30 @@
+=========================
+=   M66_OpenCPU_GS3_SDK_V2.5 Modified for VSCode
+=   By Morteza Rastegar (qwerty13), 26/05/1401
+=========================
+
+
+Usage:
+----------
+
+-----------------
+1. Write Your Program in main.c, You can use "libraries" Folder to archive c Files
+   and header Files also.
+-----------------
+-----------------
+2. Press Ctrl+Shift+B, VSCode Automaticaly Make the project and if it succeeded,
+   File Explorer Opens with QFlash.exe highlighted. You just press enter.
+-----------------
+-----------------
+3. The path to build\gcc is saved on clipboard; In QFlash Press on "Load FW Files"
+   and Paste path in addressBar, then select .cfg file.
+-----------------
+-----------------
+4. Press "Start" and turn on your module.
+-----------------
+
+Note:
+----------
+By default, the program in \SDK\custom\ is compiled. If you want to comiple other example, you need to change the right value of variable "C_PREDEF" in \SDK\make\gcc\gcc_makefile. This veriable defines the preprocessor definition that includes all codes to compile and link.
+
+For example, if you want to compile the example example_call.c, you first need to redefine the variable "C_PREDEF=-D  __EXAMPLE_CALL__". And then you may "make clean/new" to compile this example.

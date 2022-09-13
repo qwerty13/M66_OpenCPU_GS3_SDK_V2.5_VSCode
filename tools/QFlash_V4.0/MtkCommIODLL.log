@@ -1,0 +1,6 @@
+CatcherTran::MtkCommIOInit()...
+[commModule][MtkCommIOLog]E:\Projects\Mahda_Quectel_Research\VSCode SDK\Sample_M66_Project_with_VSCode_Build_Task_v2.5\tools\QFlash_V4.0\QFlash_V4.0\\MtkCommIODLL.dll
+[commModule][MtkCommIOLog]Load MtkCommIO Library Failed...
+[CatcherTran][MtkCommIOLog]MtkCommIODll_Init Failed.
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......m_port = 10, baud = 115200
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......hCOM = 0x15EC

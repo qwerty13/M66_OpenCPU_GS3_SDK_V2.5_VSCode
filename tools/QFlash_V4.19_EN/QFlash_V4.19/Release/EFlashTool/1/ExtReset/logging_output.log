@@ -1,0 +1,8 @@
+2019-07-12 12:03:33,328 INFO     [AutoDldMode]    TryEnterDldMode Start
+2019-07-12 12:03:33,329 INFO     [AutoDldMode]    ResetBoardDsrDcd start, Port COM56 used for reset
+2019-07-12 12:03:33,594 DEBUG    [AutoDldMode]    GetDeviceNumBySerial dev serial info: AB0JJU2M
+2019-07-12 12:03:33,595 DEBUG    [AutoDldMode]    GetResetDeviceNum success, devNum 0, serial info: AB0JJU2MA
+2019-07-12 12:03:33,733 DEBUG    [AutoDldMode]    OpenEx success, devNum 0
+2019-07-12 12:03:34,749 DEBUG    [AutoDldMode]    ResetDLD success, devNum 0
+2019-07-12 12:03:34,749 INFO     [AutoDldMode]    ResetBoardDsrDcd finish, Port COM56 used for reset
+2019-07-12 12:03:34,876 INFO     [AutoDldMode]    TryEnterDldMode finish
